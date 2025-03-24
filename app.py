@@ -5,6 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
+    print("Webex Bot is running!")
     return "Webex Bot is running!"
 
 if __name__ == "__main__":
