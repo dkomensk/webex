@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 from webexteamssdk import WebexTeamsAPI
 import requests
 
-app = Flask(__name__)
+
 
 WEBEX_BOT_TOKEN = os.getenv("WEBEX_BOT_TOKEN")
 WEBEX_API_URL = "https://webexapis.com/v1/messages"
