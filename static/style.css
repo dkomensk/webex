@@ -1,0 +1,68 @@
+ody {
+    font-family: Arial, sans-serif;
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.logo1 {
+     height: 60px;
+}
+
+#header {
+    text-align: center;
+    padding: 10px;
+    background-color: #e20074;
+}
+
+.logo {
+    height: 60px;
+}
+
+#chatbox {
+    width: 800px;
+    background: rgb(179, 179, 179);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 90px;
+}
+
+#messages {
+    height: 900px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    border: 1px solid #aaaaaa;
+    padding: 10px;
+}
+
+.message {
+    margin-bottom: 10px;
+}
+
+.user {
+    text-align: right;
+    color: rgb(0, 0, 0);
+}
+
+.bot {
+    text-align: left;
+    color: rgb(219, 0, 146);
+}
+
+form {
+    display: flex;
+    gap: 10px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 15px;
+}
+
+button {
+    padding: 10px;
+    font-size: 15px;
+}
