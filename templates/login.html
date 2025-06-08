@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <title>Prihlásenie</title>
+</head>
+<body>
+    <img src="{{ url_for('static', filename='7e4eebfd3f66d18b69139a332974d43b.jpg') }}" alt="Logo" class="logo1">
+        <h2>Prihlásenie</h2>
+        {% if error %}
+        <p style="color:red;">{{ error }}</p>
+        {% endif %}
+        <form method="post">
+            <label>Email:</label><br>
+            <input type="text" name="username"><br><br>
+            <label>Heslo:</label><br>
+            <input type="password" name="password"><br><br>
+            <input type="submit" value="Prihlásiť sa">
+        </form>
+</body>
+</html>
